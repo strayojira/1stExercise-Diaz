@@ -1,0 +1,42 @@
+====================================================
+Exercise 1: Odd or Even Number
+Code (btnCheck_Click):
+====================================================
+
+private void btnCheck_Click(object sender, EventArgs e)
+{
+    int number = Convert.ToInt32(txtNumber.Text);
+
+    if (number % 2 == 0)
+    {
+        lblResult.Text = "Even";
+    }
+    else
+    {
+        lblResult.Text = "Odd";
+    }
+}
+
+
+====================================================
+Exercise 2: Negative, Zero, or Positive Number
+Code (btnCheck_Click):
+====================================================
+
+private void btnCheck_Click(object sender, EventArgs e)
+{
+    int number = Convert.ToInt32(txtNumber.Text);
+
+    if (number < 0)
+    {
+        lblResult.Text = "Negative";
+    }
+    else if (number == 0)
+    {
+        lblResult.Text = "Zero";
+    }
+    else
+    {
+        lblResult.Text = "Positive";
+    }
+}
